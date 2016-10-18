@@ -119,3 +119,19 @@ ul.share-buttons img{
 .footer h3{
   margin: 0px;
 }
+.library-list{
+  height: 500px;
+  overflow-y: scroll;
+}
+.about-pic{
+  color: gray;
+  text-align: center;
+
+}
+#about-me{
+  font-size: 20px;
+  text-align: center;
+}
+.input{
+  width: 20em;
+}

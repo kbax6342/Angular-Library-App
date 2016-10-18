@@ -19,7 +19,7 @@
       </ul>
     </div>
 
-    <div ng-controller="LibraryInvetory as Library">
+    <div class="library-list" ng-controller="LibraryInvetory as Library">
     <div class="book" ng-repeat="product in Library.products">
        <h1>Title: {{product.name}}</h1>
        <h2>Author: {{product.author}}</h2>
@@ -49,7 +49,7 @@
                   <li><a href="mailto:?subject=&body=:%20" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="img/Email.svg"></a></li>
               </ul>
     </footer>
-    
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script type="text/javascript" src="library-script.js">
 
