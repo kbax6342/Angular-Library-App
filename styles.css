@@ -1,5 +1,5 @@
 body {
-    background-color: #CFCFD0;
+  background-color: #CFCFD0;
 }
 
 
@@ -134,4 +134,7 @@ ul.share-buttons img{
 }
 .input{
   width: 20em;
+}
+.form{
+  margin-left: 80px;
 }
